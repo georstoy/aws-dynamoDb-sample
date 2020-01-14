@@ -7,3 +7,10 @@ npm install --save \
 @aws-cdk/aws-lambda \
 @aws-cdk/aws-apigateway
 ```
+```
+cd src && \
+npm init -y && \
+npm install --save \
+aws-sdk \
+uuidv4
+```

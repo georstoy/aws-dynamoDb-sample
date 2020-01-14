@@ -5,6 +5,9 @@
     "aws-dynamo_db-sample": "bin/aws-dynamo_db-sample.js"
   },
   "scripts": {
+    "deploy": "npm run build && cdk deploy",
+    "debug": "npm ",
+    "destroy": "cdk destroy",
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
